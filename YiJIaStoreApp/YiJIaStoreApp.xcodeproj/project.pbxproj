@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266BE54FDAE0C6ECA053E851 /* libPods-YiJIaStoreApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84736ECBC537D6C2143EDDD /* libPods-YiJIaStoreApp.a */; };
+		A8CB0E3E1FEB8B4A00CCF008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB0E3D1FEB8B4A00CCF008 /* AppDelegate.m */; };
+		A8CB0E411FEB8B4A00CCF008 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB0E401FEB8B4A00CCF008 /* ViewController.m */; };
+		A8CB0E441FEB8B4A00CCF008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CB0E421FEB8B4A00CCF008 /* Main.storyboard */; };
+		A8CB0E461FEB8B4A00CCF008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CB0E451FEB8B4A00CCF008 /* Assets.xcassets */; };
+		A8CB0E491FEB8B4A00CCF008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CB0E471FEB8B4A00CCF008 /* LaunchScreen.storyboard */; };
+		A8CB0E4C1FEB8B4A00CCF008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB0E4B1FEB8B4A00CCF008 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55644DB21D20ADE39B65107B /* Pods-YiJIaStoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YiJIaStoreApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YiJIaStoreApp/Pods-YiJIaStoreApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB97069F1E808EAE2D9A14E /* Pods-YiJIaStoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YiJIaStoreApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YiJIaStoreApp/Pods-YiJIaStoreApp.release.xcconfig"; sourceTree = "<group>"; };
+		A8CB0E391FEB8B4A00CCF008 /* YiJIaStoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiJIaStoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CB0E3C1FEB8B4A00CCF008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8CB0E3D1FEB8B4A00CCF008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8CB0E3F1FEB8B4A00CCF008 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8CB0E401FEB8B4A00CCF008 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8CB0E431FEB8B4A00CCF008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8CB0E451FEB8B4A00CCF008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8CB0E481FEB8B4A00CCF008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8CB0E4A1FEB8B4A00CCF008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CB0E4B1FEB8B4A00CCF008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D84736ECBC537D6C2143EDDD /* libPods-YiJIaStoreApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YiJIaStoreApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8CB0E361FEB8B4A00CCF008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266BE54FDAE0C6ECA053E851 /* libPods-YiJIaStoreApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0AA441994FA7C092CAE61ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84736ECBC537D6C2143EDDD /* libPods-YiJIaStoreApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8CB0E301FEB8B4A00CCF008 = {
+			isa = PBXGroup;
+			children = (
+				A8CB0E3B1FEB8B4A00CCF008 /* YiJIaStoreApp */,
+				A8CB0E3A1FEB8B4A00CCF008 /* Products */,
+				EB8C79620F494BE7A3DE333C /* Pods */,
+				A0AA441994FA7C092CAE61ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8CB0E3A1FEB8B4A00CCF008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB0E391FEB8B4A00CCF008 /* YiJIaStoreApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8CB0E3B1FEB8B4A00CCF008 /* YiJIaStoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB0E3C1FEB8B4A00CCF008 /* AppDelegate.h */,
+				A8CB0E3D1FEB8B4A00CCF008 /* AppDelegate.m */,
+				A8CB0E3F1FEB8B4A00CCF008 /* ViewController.h */,
+				A8CB0E401FEB8B4A00CCF008 /* ViewController.m */,
+				A8CB0E421FEB8B4A00CCF008 /* Main.storyboard */,
+				A8CB0E451FEB8B4A00CCF008 /* Assets.xcassets */,
+				A8CB0E471FEB8B4A00CCF008 /* LaunchScreen.storyboard */,
+				A8CB0E4A1FEB8B4A00CCF008 /* Info.plist */,
+				A8CB0E4B1FEB8B4A00CCF008 /* main.m */,
+			);
+			path = YiJIaStoreApp;
+			sourceTree = "<group>";
+		};
+		EB8C79620F494BE7A3DE333C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55644DB21D20ADE39B65107B /* Pods-YiJIaStoreApp.debug.xcconfig */,
+				6AB97069F1E808EAE2D9A14E /* Pods-YiJIaStoreApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8CB0E381FEB8B4A00CCF008 /* YiJIaStoreApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CB0E4F1FEB8B4A00CCF008 /* Build configuration list for PBXNativeTarget "YiJIaStoreApp" */;
+			buildPhases = (
+				A78D44CC2B0D6083C4D6FC25 /* [CP] Check Pods Manifest.lock */,
+				A8CB0E351FEB8B4A00CCF008 /* Sources */,
+				A8CB0E361FEB8B4A00CCF008 /* Frameworks */,
+				A8CB0E371FEB8B4A00CCF008 /* Resources */,
+				1AF88F41AF3D5694385BBABF /* [CP] Embed Pods Frameworks */,
+				4B13829597B80C9B71216499 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YiJIaStoreApp;
+			productName = YiJIaStoreApp;
+			productReference = A8CB0E391FEB8B4A00CCF008 /* YiJIaStoreApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8CB0E311FEB8B4A00CCF008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com.kaichuang;
+				TargetAttributes = {
+					A8CB0E381FEB8B4A00CCF008 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A8CB0E341FEB8B4A00CCF008 /* Build configuration list for PBXProject "YiJIaStoreApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8CB0E301FEB8B4A00CCF008;
+			productRefGroup = A8CB0E3A1FEB8B4A00CCF008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8CB0E381FEB8B4A00CCF008 /* YiJIaStoreApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8CB0E371FEB8B4A00CCF008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CB0E491FEB8B4A00CCF008 /* LaunchScreen.storyboard in Resources */,
+				A8CB0E461FEB8B4A00CCF008 /* Assets.xcassets in Resources */,
+				A8CB0E441FEB8B4A00CCF008 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AF88F41AF3D5694385BBABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YiJIaStoreApp/Pods-YiJIaStoreApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B13829597B80C9B71216499 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YiJIaStoreApp/Pods-YiJIaStoreApp-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/JSBadgeView/JSBadgeView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YiJIaStoreApp/Pods-YiJIaStoreApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A78D44CC2B0D6083C4D6FC25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YiJIaStoreApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8CB0E351FEB8B4A00CCF008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CB0E411FEB8B4A00CCF008 /* ViewController.m in Sources */,
+				A8CB0E4C1FEB8B4A00CCF008 /* main.m in Sources */,
+				A8CB0E3E1FEB8B4A00CCF008 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8CB0E421FEB8B4A00CCF008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CB0E431FEB8B4A00CCF008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8CB0E471FEB8B4A00CCF008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CB0E481FEB8B4A00CCF008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8CB0E4D1FEB8B4A00CCF008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8CB0E4E1FEB8B4A00CCF008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8CB0E501FEB8B4A00CCF008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55644DB21D20ADE39B65107B /* Pods-YiJIaStoreApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4SPV2478D6;
+				INFOPLIST_FILE = YiJIaStoreApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaichuang.YiJiaStoreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b67a2cd4-a956-4f1d-a924-c1b54c813301";
+				PROVISIONING_PROFILE_SPECIFIER = "UniVersalSGBDev_2017-10-11";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8CB0E511FEB8B4A00CCF008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB97069F1E808EAE2D9A14E /* Pods-YiJIaStoreApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4SPV2478D6;
+				INFOPLIST_FILE = YiJIaStoreApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaichuang.YiJiaStoreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b67a2cd4-a956-4f1d-a924-c1b54c813301";
+				PROVISIONING_PROFILE_SPECIFIER = "UniVersalSGBDev_2017-10-11";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8CB0E341FEB8B4A00CCF008 /* Build configuration list for PBXProject "YiJIaStoreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CB0E4D1FEB8B4A00CCF008 /* Debug */,
+				A8CB0E4E1FEB8B4A00CCF008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CB0E4F1FEB8B4A00CCF008 /* Build configuration list for PBXNativeTarget "YiJIaStoreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CB0E501FEB8B4A00CCF008 /* Debug */,
+				A8CB0E511FEB8B4A00CCF008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8CB0E311FEB8B4A00CCF008 /* Project object */;
+}
